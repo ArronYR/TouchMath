@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile file(STORE_FILE_PATH)
+            storePassword STORE_PASSWORD
+        }
+        debug{
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.helloarron.touchmath"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        // Location of your package's `libs` directory containing `*.aar` files.
+        dirs project(':app').file('libs')
+    }
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name: 'MyScript_ATK-Core-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-Math-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-MathWidget-android-widget', ext: 'aar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'cn.pedant.sweetalert:library:1.3'
+}

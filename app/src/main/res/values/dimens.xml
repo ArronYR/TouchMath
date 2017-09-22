@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_larger">24sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_bigger">20sp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_smaller">12sp</dimen>
+
+    <dimen name="margin_padding_s">4dp</dimen>
+    <dimen name="margin_padding_m">8dp</dimen>
+    <dimen name="margin_padding_l">12dp</dimen>
+    <dimen name="margin_padding_xl">16dp</dimen>
+    <dimen name="margin_padding_xxl">20dp</dimen>
+
+    <dimen name="home_icon_margin">12dp</dimen>
+    <dimen name="action_img_width_height">26dp</dimen>
+
+    <dimen name="navbar_img_width">44dp</dimen>
+
+</resources>

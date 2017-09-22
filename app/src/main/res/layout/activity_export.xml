@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    tools:context="com.helloarron.touchmath.activity.ExportActivity">
+
+    <include layout="@layout/include_main_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_padding_l">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_padding_m"
+                    android:text="@string/latex_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_teal_400" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_grey_radius"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_padding_m">
+
+                    <TextView
+                        android:id="@+id/tv_laTeX"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_padding_m" />
+
+                    <View style="@style/line_horizontal" />
+
+                    <Button
+                        android:id="@+id/btn_copy_latex"
+                        android:layout_width="50dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/margin_padding_s"
+                        android:background="@drawable/btn_grey_border"
+                        android:gravity="center"
+                        android:text="@string/copy"
+                        android:textColor="@color/grey_500"
+                        android:textSize="@dimen/text_smaller" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_padding_l">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_padding_m"
+                    android:text="@string/mathml_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_teal_400" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_grey_radius"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_padding_m">
+
+                    <TextView
+                        android:id="@+id/tv_mathML"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_padding_m" />
+
+                    <View style="@style/line_horizontal" />
+
+                    <Button
+                        android:id="@+id/btn_copy_mathml"
+                        android:layout_width="50dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/margin_padding_s"
+                        android:background="@drawable/btn_grey_border"
+                        android:gravity="center"
+                        android:text="@string/copy"
+                        android:textColor="@color/grey_500"
+                        android:textSize="@dimen/text_smaller" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_padding_l">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_padding_m"
+                    android:text="@string/image_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_teal_400" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_grey_radius"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_padding_m">
+
+                    <ImageView
+                        android:id="@+id/im_bitmap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="1000dp"
+                        android:maxWidth="1000dp"
+                        android:padding="@dimen/margin_padding_m"
+                        android:scaleType="fitCenter" />
+
+                    <View style="@style/line_horizontal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_padding_s"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_export_png"
+                            android:layout_width="50dp"
+                            android:layout_height="24dp"
+                            android:layout_marginRight="@dimen/margin_padding_l"
+                            android:background="@drawable/btn_grey_border"
+                            android:gravity="center"
+                            android:text="@string/png"
+                            android:textColor="@color/grey_500"
+                            android:textSize="@dimen/text_smaller" />
+
+                        <Button
+                            android:id="@+id/btn_export_jpg"
+                            android:layout_width="50dp"
+                            android:layout_height="24dp"
+                            android:background="@drawable/btn_grey_border"
+                            android:gravity="center"
+                            android:text="@string/jpg"
+                            android:textColor="@color/grey_500"
+                            android:textSize="@dimen/text_smaller" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

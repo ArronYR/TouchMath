@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Touch Math</string>
+    <string name="system_title">设置</string>
+    <string name="helps_title">帮助</string>
+    <string name="video_title">演示视频</string>
+    <string name="export_title">导出</string>
+
+    <string name="support">支持作者</string>
+    <string name="lang">语言</string>
+    <string name="chinese">中文</string>
+    <string name="english">English</string>
+    <string name="version">版本</string>
+    <string name="version_value">v1.0</string>
+    <string name="author">Arron</string>
+    <string name="copyright">©2017 helloarron.com</string>
+
+    <string name="current_version">当前版本</string>
+    <string name="next_version_plan">下版本计划：</string>
+    <string name="next_version_plan_one">1.支持QQ、微信分享，将导出结果发送给电脑或好友；</string>
+    <string name="next_version_plan_two">2.加入历史记录功能；</string>
+    <string name="next_version_plan_three">3.优化该版本因技术有限遗留的问题。</string>
+
+    <string name="warning">警告</string>
+    <string name="error">错误</string>
+    <string name="give_up_the_editor">放弃编辑？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="loading">加载中...</string>
+
+    <string name="click_to_exit">再按一次退出程序</string>
+    <string name="some_errors">发生了某些错误</string>
+
+    <string name="invalid_certificate_title">无效的证书</string>
+    <string name="invalid_certificate_msg">请使用一个有效的证书。</string>
+    <string name="unable_to_configure_title">无法配置 Math 组件</string>
+
+    <string name="latex_title">LaTeX</string>
+    <string name="mathml_title">MathML</string>
+    <string name="image_title">Image</string>
+
+    <string name="copy">复制</string>
+    <string name="copy_success">复制成功</string>
+    <string name="paste">粘贴</string>
+    <string name="paste_success">粘贴成功</string>
+    <string name="jpg">JPG</string>
+    <string name="png">PNG</string>
+
+    <string name="no_sdcard">SD卡未准备好！</string>
+    <string name="failed_create_folder">创建目录失败</string>
+    <string name="save_success">保存成功</string>
+
+    <string name="symbols">符号</string>
+    <string name="rules">规则</string>
+    <string name="operations">操作符</string>
+
+    <string name="support_tip">因该App使用了付费第三方工具，如果您喜欢该工具，请通过下方的方式支持作者吧，O(∩_∩)O谢谢！</string>
+    <string name="support_way_title">支持方式</string>
+    <string name="pay_tip">长按下方图片保存，使用微信扫码</string>
+    <string name="save">保存</string>
+    <string name="pay_alert_content">作者很辛苦，支持一个 (*^__^*)</string>
+    <string name="support_sure">助力作者</string>
+    <string name="support_cancel">有待改进</string>
+
+</resources>

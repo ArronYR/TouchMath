@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bg_white_radius"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/chinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setLanguage"
+            android:padding="@dimen/margin_padding_l">
+
+            <TextView
+                style="@style/text_44_black_big"
+                android:layout_centerInParent="true"
+                android:text="@string/chinese" />
+        </RelativeLayout>
+
+        <View style="@style/line_horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setLanguage"
+            android:padding="@dimen/margin_padding_l">
+
+            <TextView
+                style="@style/text_44_black_big"
+                android:layout_centerInParent="true"
+                android:text="@string/english" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

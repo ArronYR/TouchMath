@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Touch Math</string>
+    <string name="system_title">Setting</string>
+    <string name="helps_title">Helps</string>
+    <string name="video_title">Demo video</string>
+    <string name="export_title">Export</string>
+
+    <string name="support">Support</string>
+    <string name="lang">Language</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="version">Version</string>
+    <string name="version_value">v1.0</string>
+    <string name="author">Arron</string>
+    <string name="copyright">©2017 helloarron.com</string>
+
+    <string name="current_version">Current Version</string>
+    <string name="next_version_plan">Next release plan:</string>
+    <string name="next_version_plan_one">1.Support QQ, WeChat to share the results will be sent to the computer or friends;</string>
+    <string name="next_version_plan_two">2.Add history function;</string>
+    <string name="next_version_plan_three">3.Optimization of this version due to limited technology issues left over.</string>
+
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    <string name="give_up_the_editor">Give up the editor ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sure">Make Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading...</string>
+
+    <string name="click_to_exit">Again according to exit</string>
+    <string name="some_errors">Something went wrong!</string>
+
+    <string name="invalid_certificate_title">Invalid certificate</string>
+    <string name="invalid_certificate_msg">Please use a valid certificate.</string>
+    <string name="unable_to_configure_title">Unable to configure the Math Widget</string>
+
+    <string name="latex_title">LaTeX</string>
+    <string name="mathml_title">MathML</string>
+    <string name="image_title">Image</string>
+
+    <string name="copy">Copy</string>
+    <string name="copy_success">Copy success</string>
+    <string name="paste">Paste</string>
+    <string name="paste_success">Paste success</string>
+    <string name="jpg">JPG</string>
+    <string name="png">PNG</string>
+
+    <string name="no_sdcard">SD card not ready!</string>
+    <string name="failed_create_folder">Failed to create directory</string>
+    <string name="save_success">Save success</string>
+
+    <string name="symbols">Symbols</string>
+    <string name="rules">Rules</string>
+    <string name="operations">operations</string>
+
+    <string name="support_tip">Because of the use of App to pay third party tools, if you love this tool, please support the author through the bottom of the way, O(∩_∩)O thank you!</string>
+    <string name="support_way_title">Support way</string>
+    <string name="pay_tip">Long press the following image to save, use WeChat scan code.</string>
+    <string name="save">Save</string>
+    <string name="pay_alert_content">The author is very hard, support him. (*^__^*)</string>
+    <string name="support_sure">Support</string>
+    <string name="support_cancel">To improve</string>
+
+</resources>
